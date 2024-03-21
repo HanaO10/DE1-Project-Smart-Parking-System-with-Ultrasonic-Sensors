@@ -9,18 +9,18 @@ Design and implement a smart parking system using VHDL on the Nexys A7 FPGA boar
 Theoretical description and explanation
 Enter a description of the problem and how to solve it.
 
-Hardware description of demo application
+### Hardware description of demo application
 Insert descriptive text and schematic(s) of your implementation.
 
-Software description
+### Software description
 Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in src and sim folders.
 
-Component(s) simulation
+### Component(s) simulation
 Write descriptive text and put simulation screenshots of your components.
 
-Instructions
+### Instructions
 Write an instruction manual for your application, including photos and a link to a short app video.
 
-References
+### References
 Put here all references to sources and tools you used.
 ...
