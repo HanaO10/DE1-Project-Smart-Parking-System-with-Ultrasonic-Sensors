@@ -6,7 +6,7 @@ Design and implement a smart parking system using VHDL on the Nexys A7 FPGA boar
 ## Jan Chládek (responsible for ...)
 ## Marek Hlavatovič (responsible for ...)
 ## Tomáš Čišecký (responsible for ...)
-Theoretical description and explanation
+### Theoretical description and explanation
 Enter a description of the problem and how to solve it.
 
 ### Hardware description of demo application
