@@ -1,5 +1,5 @@
-Projekt DE1
-Úkoly:
+
+#Úkoly:
 1.	Vytvoření design souboru pro ultrazvukový senzor/Olin
 2.	Vytvoření obrázku celkového projektu s vstupy a výstupy jako to dělal Frýza na cviku 
 3.	Vytvoření design souboru pro zobrazování na 7-segmentovce/Honza 
