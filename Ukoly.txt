@@ -1,0 +1,11 @@
+Projekt DE1
+Úkoly:
+1.	Vytvoření design souboru pro ultrazvukový senzor/Olin
+2.	Vytvoření obrázku celkového projektu s vstupy a výstupy jako to dělal Frýza na cviku 
+3.	Vytvoření design souboru pro zobrazování na 7-segmentovce/Honza 
+4.	Vytvoření design souboru pro ledky/Marek 
+5.	Vytvoření top levelu constrainů 
+6.	Vytvoření testbenchů a simulací /každý zvlášť
+7.	Vytvoření teoretického popisu projektu/Tomáš
+8.	Napsání manuálu k programu 
+
