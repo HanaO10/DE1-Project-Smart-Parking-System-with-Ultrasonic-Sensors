@@ -32,14 +32,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity SegControl is
-    Port ( Dist1 : in integer range 0 to 40;
-           Dist2 : in integer range 0 to 40;
-           Dist3 : in integer range 0 to 40;
-           Dist4 : in integer range 0 to 40;
+    Port ( Dist1 : in integer range 0 to 99;
+           Dist2 : in integer range 0 to 99;
+           Dist3 : in integer range 0 to 99;
+           Dist4 : in integer range 0 to 99;
            clk : in STD_LOGIC;
            rst : in STD_LOGIC;
            AN : out STD_LOGIC_VECTOR (7 downto 0);
-           dist_out : out integer range 0 to 9);
+           dist_out : out integer range 0 to 10);
 end SegControl;
 
 architecture Behavioral of SegControl is
