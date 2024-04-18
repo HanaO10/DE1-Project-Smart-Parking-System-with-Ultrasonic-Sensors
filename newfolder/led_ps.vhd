@@ -1,14 +1,13 @@
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity led_ps is
     Port ( distance : in integer;
-           LED_D : out STD_LOGIC_VECTOR (4 downto 0));
+           LED_D : out STD_LOGIC_VECTOR (15 downto 0));
 end led_ps;
 
 architecture Behavioral of led_ps is
-
-    signal sig_led : STD_LOGIC_VECTOR (4 DOWNTO 0);
 
 begin
     p_led : process(distance) is
@@ -111,5 +110,6 @@ begin
                                 end if;
                                         end process p_led;
                                                 end Behavioral;
+
 
 
