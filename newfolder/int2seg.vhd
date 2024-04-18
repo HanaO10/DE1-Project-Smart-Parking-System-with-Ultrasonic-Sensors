@@ -69,6 +69,8 @@ begin
         seg <= "0000000";
         when 9 =>
         seg <= "0000100";
+     when 10 =>
+        seg <= "1111110";
     end case;
 
   end if;    
