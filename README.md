@@ -38,7 +38,6 @@ Write descriptive text and put simulation screenshots of your components.
 Write an instruction manual for your application, including photos and a link to a short app video.
 
 ### References
-Put here all references to sources and tools you used.
 [Nexys A7 manual](https://digilent.com/reference/_media/reference/programmable-logic/nexys-a7/nexys-a7_rm.pdf)
 
 [HC-SR04 User Manual](https://web.eece.maine.edu/~zhu/book/lab/HC-SR04%20User%20Manual.pdf)
