@@ -34,13 +34,13 @@ Insert descriptive text and schematic(s) of your implementation.
 
 **START** - initial state of the measurement. By changing the TRIG signal to a value of 1, the transition to the TRIGWAIT state occurs.
 
-`TRIGWAIT` - manage the duration of the trigger pulse that initiates the ultrasonic signal. Signal sig_count determine how long the TRIG pulse has been active. Once the sig_count exceeds 1000, the TRIG signal is set to '0', indicating the end of the ultrasonic pulse. After the TRIG pulse has been correctly terminated, the FSM transitions to the WAIT1 state.
+**TRIGWAIT** - manage the duration of the trigger pulse that initiates the ultrasonic signal. Signal sig_count determine how long the TRIG pulse has been active. Once the sig_count exceeds 1000, the TRIG signal is set to '0', indicating the end of the ultrasonic pulse. After the TRIG pulse has been correctly terminated, the FSM transitions to the WAIT1 state.
 
-`WAIT1` - detects the ECHO signal, waits for the state to change to '1', which means that the echo signal has been caught. While waiting for ECHO, the sig_watchdog timer is activated, which increments with each clock cycle. This timer helps to identify when the ECHO signal does not arrive at the expected time (ECHO='0'). When the ECHO signal changes to '1', FSM goes into the COUNTER state.
+**WAIT1** - detects the ECHO signal, waits for the state to change to '1', which means that the echo signal has been caught. While waiting for ECHO, the sig_watchdog timer is activated, which increments with each clock cycle. This timer helps to identify when the ECHO signal does not arrive at the expected time (ECHO='0'). When the ECHO signal changes to '1', FSM goes into the COUNTER state.
 
-`COUNTER` - measuring the duration of the ECHO. This represents the duration of the ultrasonic signal from sending it to the sensor until it returns. Signal sig_count continues to increment while the ECHO signal is active. It records the total length of the active ECHO signal. When the ECHO signal changes to '0', the measurement process is finished and FSM goes into the CONTROL state.
+**COUNTER** - measuring the duration of the ECHO. This represents the duration of the ultrasonic signal from sending it to the sensor until it returns. Signal sig_count continues to increment while the ECHO signal is active. It records the total length of the active ECHO signal. When the ECHO signal changes to '0', the measurement process is finished and FSM goes into the CONTROL state.
 
-`CONTROL` - distance calculation based on the time data obtained in the previous state. It ensures that the calculated distance does not exceed the maximum range of the sensor (for example, 0 to 100 units). If the result of the calculation is greater than the maximum range, the distance output will be set to the largest possible value ( 99). After calculating the distance, FSM automatically returns to the initial START state, where the system is ready to start the next measurement cycle.
+**CONTROL** - distance calculation based on the time data obtained in the previous state. It ensures that the calculated distance does not exceed the maximum range of the sensor (for example, 0 to 100 units). If the result of the calculation is greater than the maximum range, the distance output will be set to the largest possible value ( 99). After calculating the distance, FSM automatically returns to the initial START state, where the system is ready to start the next measurement cycle.
 
 
 ### Component(s) simulation
