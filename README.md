@@ -2,10 +2,10 @@
 Design and implement a smart parking system using VHDL on the Nexys A7 FPGA board. The system will utilize multiple ultrasonic sensors (HS-SR04) connected to the Pmod connectors for detecting the presence and distance of vehicles within parking spaces. Develop algorithms to analyze sensor data and determine parking space availability. Visualize parking space occupancy status using LEDs, while displaying distance measurements on the 7-segment display.
 
 # Team members
-## Oldřich Hána (responsible for ...)
-## Jan Chládek (responsible for ...)
-## Marek Hlavatovič (responsible for ...)
-## Tomáš Čišecký (responsible for ...)
+## Oldřich Hána (responsible for HC_SRO4)
+## Jan Chládek (responsible for Controller4Seg)
+## Marek Hlavatovič (responsible for LED_PS)
+## Tomáš Čišecký (responsible for theoretical part)
 ### Theoretical description and explanation
 
 A smart parking system is an automated system designed to optimize the management and control of parking spaces. Its main objective is to improve the efficiency of parking space utilization and provide convenient parking services for drivers. It operates based on sensors placed on parking spaces, which monitor the presence of vehicles and determine their distance from the sensor. These sensors can be ultrasonic sensors like the HS-SR04. 
@@ -42,7 +42,7 @@ Since the HC-SR04 is powered from 5V and the NEXYS A7-50T board uses 3.3V, we us
 
 ### Software description
 The logical form of implementation consists of five components:
-- HS_SR04 
+- HC_SR04 
 -	Controller4Seg 
 -	LED_PS
 -	Int2Seg
@@ -82,6 +82,7 @@ Sig_count and Vector AN changes at regular intervals, indicating that the displa
 
 ### Instructions
 Write an instruction manual for your application, including photos and a link to a short app video.
+
 [Application Manual](https://github.com/HanaO10/DE1-Project-Smart-Parking-System-with-Ultrasonic-Sensors/blob/main/projekt_de1.srcs/manual.pdf)
 
 ### References
