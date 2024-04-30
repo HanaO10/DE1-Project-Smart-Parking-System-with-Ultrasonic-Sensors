@@ -27,10 +27,23 @@ In our solution, we implemented the management of the ultrasonic sensor using Mo
 
 ### Hardware description of demo application
 Insert descriptive text and schematic(s) of your implementation.
+We used these components for the physical implementation:
+-  **NEXYS A7 50T Board** -FPGA development platform designed by Digilent. It includes Axtix-7 FPGA which provides a balance of processing power and I/O capabilities. Board contains several built-in peripherals, including an accelerometer, temperature sensor, MEMs digital microphone, a speaker amplifier, and several I/O devices
+
+  ![NEXYS A7 50T Image](newfolder/FSM.png)
+  
+-  **HC_SR04 Ultrasonic Sensor** - The HC-SR04 is measuring sensor module that uses sonar to determine distance to an object by sending out a sound pulse and timing how long it takes for the pulse to bounce back after hitting an object.
+
+![HC_SR04 Image](newfolder/FSM.png)
+
+Since the HC-SR04 is powered from 5V and the NEXYS A7-50T board uses 3.3V, we used a logic level converter for the connection. The use of a logic converter ensures that the FPGA operating at 3.3V communicates safely with the HC-SR04 sensor, which needs 5V. This avoids the risk of damaging the FPGA due to too high a voltage.
+
+![LLC Image](newfolder/FSM.png)
+
 
 ### Software description
 
-![alt text](newfolder/FSM.png)
+![FSM Image](newfolder/FSM.png)
 
 **START** - initial state of the measurement. By changing the TRIG signal to a value of 1, the transition to the TRIGWAIT state occurs.
 
