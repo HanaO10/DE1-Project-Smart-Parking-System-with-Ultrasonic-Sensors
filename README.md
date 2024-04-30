@@ -60,6 +60,7 @@ Sig_count and Vector AN changes at regular intervals, indicating that the displa
 
 
 
+![Controller4Seg2 Image](images/FSM.png)
 
 
 
