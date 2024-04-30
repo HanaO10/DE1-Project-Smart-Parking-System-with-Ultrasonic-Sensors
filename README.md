@@ -57,7 +57,7 @@ Sig_count and Vector AN changes at regular intervals, indicating that the displa
 
 **LED_PS** -simulation shows how the state of the output vector LED_D changes over time depending on the value of the input signal distance. At the beginning of the simulation, all LEDs are on. This corresponds to the case where if the distance is between 0 and 8, all LEDs are set to '1'.As the distance increases, the LED gradually switches off. These states correspond to the case where, with increasing distance, groups of LEDs are gradually turned off from the bottom of the vector upwards.
 
-![alt text](/tb_led_ps.png)
+![alt text](tb_led_ps.png)
 
 
 
