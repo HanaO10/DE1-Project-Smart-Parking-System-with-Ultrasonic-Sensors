@@ -60,7 +60,7 @@ Sig_count and Vector AN changes at regular intervals, indicating that the displa
 
 
 
-![Controller4Seg2 Image](images/Tb_Controler4Seg2.png?raw=true)
+![Controller4Seg2 Image](images/Tb_Controler4Seg2.png)
 
 
 
