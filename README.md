@@ -53,7 +53,7 @@ Write descriptive text and put simulation screenshots of your components.
 **Controller4Seg** -simulation shows four input values Dist1, Dist2, Dist3 and Dist4 with values of 14, 99, 60 and 11.These values are used to determine what is displayed on each segment of the display.
 Sig_count and Vector AN changes at regular intervals, indicating that the display multiplexing is working properly. The AN value changes its state from FE to FB and other combinations during the cycle, corresponding to the activation of different display segments. The sig_dist_out value changes its values depending on the active segment and the corresponding input value.
 
-![Controller4Seg2 Image](newfolder/Tb_Controler4Seg2.png)
+![Controller4Seg2 Image](/images/Tb_Controler4Seg2.png)
 
 
 **LED_PS** -simulation shows how the state of the output vector LED_D changes over time depending on the value of the input signal distance. At the beginning of the simulation, all LEDs are on. This corresponds to the case where if the distance is between 0 and 8, all LEDs are set to '1'.As the distance increases, the LED gradually switches off. These states correspond to the case where, with increasing distance, groups of LEDs are gradually turned off from the bottom of the vector upwards.
