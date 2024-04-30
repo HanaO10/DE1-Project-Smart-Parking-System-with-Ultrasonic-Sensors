@@ -60,7 +60,8 @@ Sig_count and Vector AN changes at regular intervals, indicating that the displa
 
 
 
-![Controller4Seg2 Image](images/FSM.png)
+![Controller4Seg2 Image]([images/FSM.png](https://github.com/HanaO10/DE1-Project-Smart-Parking-System-with-Ultrasonic-Sensors/images/Tb_Controler4Seg2.png?raw=true))
+
 
 
 
