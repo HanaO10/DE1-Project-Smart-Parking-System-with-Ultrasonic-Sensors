@@ -26,7 +26,6 @@ Smart parking system is beneficial for urban areas, shopping centers, airports, 
 In our solution, we implemented the management of the ultrasonic sensor using Moore's finite state machine. We use a 7-segment display to display the distance.
 
 ### Hardware description of demo application
-Insert descriptive text and schematic(s) of your implementation.
 We used these components for the physical implementation:
 -  **NEXYS A7 50T Board** -FPGA development platform designed by Digilent. It includes Axtix-7 FPGA which provides a balance of processing power and I/O capabilities. Board contains several built-in peripherals, including an accelerometer, temperature sensor, MEMs digital microphone, a speaker amplifier, and several I/O devices
 
