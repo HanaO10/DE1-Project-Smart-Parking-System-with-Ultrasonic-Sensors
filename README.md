@@ -30,15 +30,15 @@ Insert descriptive text and schematic(s) of your implementation.
 We used these components for the physical implementation:
 -  **NEXYS A7 50T Board** -FPGA development platform designed by Digilent. It includes Axtix-7 FPGA which provides a balance of processing power and I/O capabilities. Board contains several built-in peripherals, including an accelerometer, temperature sensor, MEMs digital microphone, a speaker amplifier, and several I/O devices
 
-  ![NEXYS A7 50T Image](newfolder/FSM.png)
+  ![NEXYS A7 50T Image](https://github.com/HanaO10/DE1-Project-Smart-Parking-System-with-Ultrasonic-Sensors/blob/main/projekt_de1.srcs/images/nexys_board.png?raw=true)
   
 -  **HC_SR04 Ultrasonic Sensor** - The HC-SR04 is measuring sensor module that uses sonar to determine distance to an object by sending out a sound pulse and timing how long it takes for the pulse to bounce back after hitting an object.
 
-![HC_SR04 Image](newfolder/FSM.png)
+![HC_SR04 Image](https://github.com/HanaO10/DE1-Project-Smart-Parking-System-with-Ultrasonic-Sensors/blob/main/projekt_de1.srcs/images/hcsr04.png?raw=true)
 
 Since the HC-SR04 is powered from 5V and the NEXYS A7-50T board uses 3.3V, we used a logic level converter for the connection. The use of a logic converter ensures that the FPGA operating at 3.3V communicates safely with the HC-SR04 sensor, which needs 5V. This avoids the risk of damaging the FPGA due to too high a voltage.
 
-![LLC Image](newfolder/FSM.png)
+![LLC Image](https://github.com/HanaO10/DE1-Project-Smart-Parking-System-with-Ultrasonic-Sensors/blob/main/projekt_de1.srcs/images/llc.png?raw=true)
 
 
 ### Software description
