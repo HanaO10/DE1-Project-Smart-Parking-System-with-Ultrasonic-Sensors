@@ -44,7 +44,6 @@ Insert descriptive text and schematic(s) of your implementation.
 
 
 ### Component(s) simulation
-Write descriptive text and put simulation screenshots of your components.
 
 **HC-SR04 sensor** - the simulation shows that the sensor did not pick up any ECHO signal,  which could mean too much distance or no obstacle in front of the sensor. Without the arrival of an echo signal, the system remains in the WAIT1  state.
 
