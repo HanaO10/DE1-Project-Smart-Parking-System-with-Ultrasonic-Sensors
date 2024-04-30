@@ -81,7 +81,6 @@ Sig_count and Vector AN changes at regular intervals, indicating that the displa
 
 
 ### Instructions
-Write an instruction manual for your application, including photos and a link to a short app video.
 
 [Application Manual](https://github.com/HanaO10/DE1-Project-Smart-Parking-System-with-Ultrasonic-Sensors/blob/main/projekt_de1.srcs/manual.pdf)
 
