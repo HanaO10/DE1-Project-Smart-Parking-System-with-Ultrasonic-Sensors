@@ -48,7 +48,7 @@ Write descriptive text and put simulation screenshots of your components.
 
 **HC-SR04 sensor** - the simulation shows that the sensor did not pick up any ECHO signal,  which could mean too much distance or no obstacle in front of the sensor. Without the arrival of an echo signal, the system remains in the WAIT1  state.
 
-![alt text](/tb_sensor.png)
+![alt text](images/tb_sensor.png)
 
 **Controller4Seg** -simulation shows four input values Dist1, Dist2, Dist3 and Dist4 with values of 14, 99, 60 and 11.These values are used to determine what is displayed on each segment of the display.
 Sig_count and Vector AN changes at regular intervals, indicating that the display multiplexing is working properly. The AN value changes its state from FE to FB and other combinations during the cycle, corresponding to the activation of different display segments. The sig_dist_out value changes its values depending on the active segment and the corresponding input value.
