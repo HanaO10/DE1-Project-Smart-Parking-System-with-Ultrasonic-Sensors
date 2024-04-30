@@ -41,6 +41,14 @@ Since the HC-SR04 is powered from 5V and the NEXYS A7-50T board uses 3.3V, we us
 
 
 ### Software description
+The logical form of implementation consists of five components:
+- HS_SR04 
+-	Controller4Seg 
+-	LED_PS
+-	Int2Seg
+-	Clock_enable
+  
+The implementation of Int2Seg and Clock_enable we took from the material covered in the computer exercises. We implemented the HC_SR04 logic using an FSM consisting of 5 unique states:
 
 ![FSM Image](newfolder/FSM.png)
 
