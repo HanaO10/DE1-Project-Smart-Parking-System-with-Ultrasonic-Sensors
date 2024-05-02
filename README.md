@@ -90,6 +90,6 @@ Sig_count and Vector AN changes at regular intervals, indicating that the displa
 ### References
 1.[Nexys A7 manual](https://digilent.com/reference/_media/reference/programmable-logic/nexys-a7/nexys-a7_rm.pdf)
 
-2. [HC-SR04 User Manual](https://web.eece.maine.edu/~zhu/book/lab/HC-SR04%20User%20Manual.pdf)
+2.[HC-SR04 User Manual](https://web.eece.maine.edu/~zhu/book/lab/HC-SR04%20User%20Manual.pdf)
 
-3.  [Smart Parking Systems](https://museonaturalistico.it/index.php/journal/article/download/557/442/1036)
+3.[Smart Parking Systems](https://museonaturalistico.it/index.php/journal/article/download/557/442/1036)
