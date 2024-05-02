@@ -62,6 +62,9 @@ The implementation of Int2Seg and Clock_enable we took from the material covered
 
 **CONTROL** - distance calculation based on the time data obtained in the previous state. It ensures that the calculated distance does not exceed the maximum range of the sensor (for example, 0 to 100 units). If the result of the calculation is greater than the maximum range, the distance output will be set to the largest possible value ( 99). After calculating the distance, FSM automatically returns to the initial START state, where the system is ready to start the next measurement cycle.
 
+**TOP LEVEL SCHEMATIC**
+
+![Top Level Image](https://github.com/HanaO10/DE1-Project-Smart-Parking-System-with-Ultrasonic-Sensors/blob/main/projekt_de1.srcs/images/top_level_schematic.jpg?raw=true)
 
 ### Component(s) simulation
 
