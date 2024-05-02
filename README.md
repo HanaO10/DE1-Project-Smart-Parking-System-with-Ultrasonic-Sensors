@@ -88,6 +88,6 @@ Sig_count and Vector AN changes at regular intervals, indicating that the displa
 [Application Manual](https://github.com/HanaO10/DE1-Project-Smart-Parking-System-with-Ultrasonic-Sensors/blob/main/projekt_de1.srcs/manual.pdf)
 
 ### References
-[Nexys A7 manual](https://digilent.com/reference/_media/reference/programmable-logic/nexys-a7/nexys-a7_rm.pdf)
-
-[HC-SR04 User Manual](https://web.eece.maine.edu/~zhu/book/lab/HC-SR04%20User%20Manual.pdf)
+1.[Nexys A7 manual](https://digilent.com/reference/_media/reference/programmable-logic/nexys-a7/nexys-a7_rm.pdf)
+2. [HC-SR04 User Manual](https://web.eece.maine.edu/~zhu/book/lab/HC-SR04%20User%20Manual.pdf)
+3.  [Smart Parking Systems](https://museonaturalistico.it/index.php/journal/article/download/557/442/1036)
