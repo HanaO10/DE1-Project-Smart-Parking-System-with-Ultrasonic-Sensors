@@ -65,7 +65,7 @@ The implementation of Int2Seg and Clock_enable we took from the material covered
 
 ### Component(s) simulation
 
-**HC-SR04 sensor** - the simulation shows that the sensor did not pick up any ECHO signal,  which could mean too much distance or no obstacle in front of the sensor. Without the arrival of an echo signal, the system remains in the WAIT1  state.
+**HC-SR04 sensor** - the simulation shows that the distance is measured, since the sig_count value after recalculation comes out to 3 dm
 
 ![Sensor Image](https://github.com/HanaO10/DE1-Project-Smart-Parking-System-with-Ultrasonic-Sensors/blob/main/projekt_de1.srcs/images/tb_sensor.png?raw=true)
 
